@@ -1,0 +1,4 @@
+node_modules
+HTMLReports
+allure*
+jest-stare*

@@ -1,0 +1,27 @@
+{
+  "name": "cypress",
+  "version": "1.0.0",
+  "description": "Cypress with Cucumber BDD framework",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress run --reporter junit --reporter-options mochaFile=results/my-test-output.xml,toConsole=true"
+  },
+  "keywords": [
+    "cypress",
+    "cucumber",
+    "ui",
+    "testing"
+  ],
+  "author": "Sambhavi Bhamidipati",
+  "license": "ISC",
+  "dependencies": {
+    "cypress-cucumber-preprocessor": "^1.12.0",
+    "cypress": "^3.4.0"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true
+  },
+  "devDependencies": {
+    "mocha": "^6.1.4"
+  }
+}

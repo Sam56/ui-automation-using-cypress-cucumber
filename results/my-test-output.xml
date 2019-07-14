@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="13.959999999999999" tests="3" failures="0">
+  <testsuite name="Root Suite" timestamp="2019-07-14T06:06:59" tests="0" failures="0" time="0">
+  </testsuite>
+  <testsuite name="Calculate borrowing estimate" timestamp="2019-07-14T06:06:59" tests="3" failures="0" time="13.959999999999999">
+    <testcase name="Calculate borrowing estimate 1 Calculating borrowing estimate for single with zero dependants (example #1)" time="7.663" classname="1 Calculating borrowing estimate for single with zero dependants (example #1)">
+    </testcase>
+    <testcase name="Calculate borrowing estimate 2 Verifying error message for less living expenses (example #1)" time="3.2" classname="2 Verifying error message for less living expenses (example #1)">
+    </testcase>
+    <testcase name="Calculate borrowing estimate 3 Verifying clear form on clicking startOver button (example #1)" time="3.097" classname="3 Verifying clear form on clicking startOver button (example #1)">
+    </testcase>
+  </testsuite>
+</testsuites>
